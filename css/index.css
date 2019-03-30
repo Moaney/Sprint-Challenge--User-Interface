@@ -66,6 +66,13 @@ p {
     line-height: 1.4;
 }
 
+.header-container {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -104,7 +111,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    background-color: teal;
     margin: 20px 2.5%;
     color: white;
     display: flex;
